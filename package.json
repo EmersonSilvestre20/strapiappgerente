@@ -1,1 +1,30 @@
-
+{
+  "name": "strapiappgerente",
+  "version": "1.0.0",
+  "description": "My Strapi application",
+  "author": "Bartolomeu Emerson",
+  "private": true,
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@strapi/strapi": "^5.0.0", 
+    "dotenv": "^10.0.0",
+    "pg": "^8.7.1"  
+  },
+  "devDependencies": {
+    "strapi-plugin-typescript": "^1.0.0" 
+  },
+  "engines": {
+    "node": ">=14.x",
+    "npm": ">=6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmersonSilvestre20/strapiappgerente.git"
+  },
+  "license": "MIT"
+}
